@@ -42,10 +42,10 @@ Image recognition pipeline in AWS, using two EC2 instances, S3, SQS, and Rekogni
     - sudo yum install git -y
 
 --Run Application
-    - git clone https://github.com/sakthivelanm/AWS_CarText_Recognition.git
-    - on instance A, run:
+- git clone https://github.com/sakthivelanm/AWS_CarText_Recognition.git
+- on instance A, run:
     java -jar AWS_CarText_Recognition/carRecognition/carRecognition.jar
-    - on instance B, run
+- on instance B, run
     java -jar AWS_CarText_Recognition/textRecognition/textRecognition.jar
 
 
