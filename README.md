@@ -21,17 +21,19 @@ Image recognition pipeline in AWS, using two EC2 instances, S3, SQS, and Rekogni
 - Set up AWS Credentials
     - make a .aws directory (mkdir .aws)
     - cd into directory and create a credentials and config file
-          - cd .aws
-          - vim credentials
+         - cd .aws
+         - vim credentials
               - copy and paste AWS Details from learner lab
-                  [default]
-                  aws_access_key_id=yourAccessKeyId
-                  aws_secret_access_key=yourSecretAccessKey
-                  aws_session_token=yourSessionToken
-          - vim config
+                   - [default]
+                     aws_access_key_id=yourAccessKeyId
+                     aws_secret_access_key=yourSecretAccessKey
+                     aws_session_token=yourSessionToken
+
+         - vim config
               - copy and paste the following:
                   [default]
                   region = us-east-1
+                
 - Run the following commands:
     (Install java, dependencies, and other packages)
     - sudo yum install java-1.8.0-devel
