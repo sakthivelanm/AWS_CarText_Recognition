@@ -16,8 +16,8 @@ Image recognition pipeline in AWS, using two EC2 instances, S3, SQS, and Rekogni
     - Click "Launch Instance"
 
 --EC2 Instances Setup:
-- Connect to instances by running the following command in terminal from the directory where the key is stored: 
-(ssh -i "vockey.pem" ec2-user@<YOUR_EC2_INSTANCE_PUBLIC_IPV4_ADDRESS>
+- Connect to instances by running the following command in terminal from the directory where the key is stored:
+     - (ssh -i "vockey.pem" ec2-user@<YOUR_EC2_INSTANCE_PUBLIC_IPV4_ADDRESS>
 - Set up AWS Credentials
     - make a .aws directory (mkdir .aws)
     - cd into directory and create a credentials and config file
