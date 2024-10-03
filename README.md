@@ -47,5 +47,6 @@ Image recognition pipeline in AWS, using two EC2 instances, S3, SQS, and Rekogni
     java -jar AWS_CarText_Recognition/carRecognition/carRecognition.jar
 - on instance B, run
     java -jar AWS_CarText_Recognition/textRecognition/textRecognition.jar
+- either program can be run first, output will be in textRecognition directory
 
 
