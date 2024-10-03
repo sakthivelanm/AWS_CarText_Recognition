@@ -6,7 +6,7 @@ Image recognition pipeline in AWS, using two EC2 instances, S3, SQS, and Rekogni
 - Dowloand .pem key (for mac/linux) or .ppk key (for windows) from Learner Lab Console
     - (change key name to vockey and chmod 400)
 
---Instance Create:
+--Instance Creation:
 - Create two instances (instanceA and instanceB)
     - Select "Launch Instances"
     - Under "Application and OS Images", select "Amazon Linux AMI" 
