@@ -1,13 +1,13 @@
 # AWS Car/Text Recognition
 Image recognition pipeline in AWS, using two EC2 instances, S3, SQS, and Rekognition.
 
-Set Up:
--- Launch AWS from Learner Lab (https://awsacademy.instructure.com/courses/93346)
--- Dowloand .pem key (for mac/linux) or .ppk key (for windows) from Learner Lab Console
+--Set Up:
+- Launch AWS from Learner Lab (https://awsacademy.instructure.com/courses/93346)
+- Dowloand .pem key (for mac/linux) or .ppk key (for windows) from Learner Lab Console
     - (change key name to vockey and chmod 400)
 
-Instance Create:
--- Create two instances (instanceA and instanceB)
+--Instance Create:
+- Create two instances (instanceA and instanceB)
     - Select "Launch Instances"
     - Under "Application and OS Images", select "Amazon Linux AMI" 
     - Under "Instance type", select "t2.micro"
@@ -15,10 +15,10 @@ Instance Create:
     - Under "Network settings", click edit and create 3 security group rules (ssh, HTTP, HTTPS all with source as My IP)
     - Click "Launch Instance"
 
-EC2 Instances Setup:
--- Connect to instances by running the following command in terminal from the directory where the key is stored: 
+--EC2 Instances Setup:
+- Connect to instances by running the following command in terminal from the directory where the key is stored: 
 (ssh -i "vockey.pem" ec2-user@<YOUR_EC2_INSTANCE_PUBLIC_IPV4_ADDRESS>
--- Set up AWS Credentials
+- Set up AWS Credentials
     - make a .aws directory (mkdir .aws)
     - cd into directory and create a credentials and config file
           - cd .aws
@@ -32,7 +32,7 @@ EC2 Instances Setup:
               - copy and paste the following:
                   [default]
                   region = us-east-1
--- Run the following commands:
+- Run the following commands:
     (Install java, dependencies, and other packages)
     - sudo yum install java-1.8.0-devel
     - sudo /usr/sbin/alternatives --config java
