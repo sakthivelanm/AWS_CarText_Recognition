@@ -38,7 +38,7 @@ Image recognition pipeline in AWS, using two EC2 instances, S3, SQS, and Rekogni
     (Install java, dependencies, and other packages)
     - sudo yum install java-1.8.0-devel
     - sudo /usr/sbin/alternatives --config java
-          - Enter the number that corresponds to java-1.8.0-openjdk.x86_64
+         - Enter the number that corresponds to java-1.8.0-openjdk.x86_64
     - sudo yum install git -y
 
 --Run Application
