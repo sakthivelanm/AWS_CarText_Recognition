@@ -25,14 +25,14 @@ Image recognition pipeline in AWS, using two EC2 instances, S3, SQS, and Rekogni
          - vim credentials
               - copy and paste AWS Details from learner lab
                    - [default]
-                     aws_access_key_id=yourAccessKeyId
-                     aws_secret_access_key=yourSecretAccessKey
-                     aws_session_token=yourSessionToken
+                   - aws_access_key_id=yourAccessKeyId
+                   - aws_secret_access_key=yourSecretAccessKey
+                   - aws_session_token=yourSessionToken
 
          - vim config
               - copy and paste the following:
-                  [default]
-                  region = us-east-1
+                   - [default]
+                   - region = us-east-1
                 
 - Run the following commands:
     (Install java, dependencies, and other packages)
